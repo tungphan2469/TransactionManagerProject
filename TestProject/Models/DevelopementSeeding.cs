@@ -29,7 +29,7 @@ public partial class DataSeeding
             {
             FullName = "Tran Viet Tung",
             Role = Role.Admin,
-            UserName = "admin",
+            UserName = "Admin",
             PasswordHash = passwordHash,
             PasswordSalt = passwordSalt
             },
@@ -37,7 +37,7 @@ public partial class DataSeeding
             {
             FullName = "Tran Viet Tung",
             Role = Role.Member,
-            UserName = "member",
+            UserName = "Member",
             PasswordHash = passwordHash,
             PasswordSalt = passwordSalt
             }
