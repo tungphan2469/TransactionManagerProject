@@ -20,7 +20,7 @@ builder.Services.AddEndpointsApiExplorer();
 
 builder.Services.AddSwaggerGen(option =>
 {
-    option.SwaggerDoc("v1", new OpenApiInfo { Title = "NS.Core API", Version = "v1" });
+    option.SwaggerDoc("v1", new OpenApiInfo { Title = "My Project", Version = "v1" });
     option.CustomSchemaIds(type => type.FullName.Replace("+", "_"));
     option.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
